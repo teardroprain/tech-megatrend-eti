@@ -110,9 +110,9 @@
 
         <p style="margin-top: 20px;"><strong>Key Observations:</strong></p>
         <ul>
-            <li>The timing model significantly outperformed buy-and-hold while being in cash during most major market drawdowns including the years 2018 and 2022.</li>
-            <li>Two notable drawdowns occurred while on buy signals: March 2020 (COVID crash) and April 2025 (tariff event).</li>
-            <li>The strategy has shown strong capital preservation characteristics during liquidity contraction phases.</li>
+            <li>Buy & Hold Underperforms: The Tech Megatrend timing model significantly outperformed buy-and-hold while being in cash during most major market drawdowns such as in the years 2018 (B&H Drawdown (DD) = -60.2%) and 2022 (B&H DD = -80.1%). Time back to new highs took 6.5 months and 19.8 months, respectively. <li>Buy & Hold Underperforms: In addition, performance would have been flat from Feb 19, 2020 to April 7, 2025, a period of 5.2 years, and performance would have been down -31.6% from July 10, 2024 to March 30, 2026, a period of 1.7 years. </li>
+            <li>Tech Megatrend: Two notable drawdowns occurred while the Tech Megatrend timing model was on buy signals: March 2020 (COVID crash DD = -77.9%) and April 2025 (tariff event DD = -71.1%) but time back to new highs was 5 months and 5.1 months, respectively.</li>
+            <li>Tech Megatrend: The Tech Megatrend timing model has shown strong capital preservation characteristics during liquidity contraction phases.</li>
         </ul>
 
         <p><em>Note: The above performance reflects a self-reported simulated backtest. Live fund performance will differ due to fees, slippage, and real-time decision making. Past performance is not indicative of future results.</em></p>
@@ -139,10 +139,122 @@
         <ul>
             <li><strong>Structure:</strong> Exchange Traded Instrument (ETI)</li>
             <li><strong>Management Fee:</strong> 1.0% per annum</li>
-            <li><strong>Performance Fee:</strong> 30% with high-water mark</li>
+            <li><strong>Performance Fee:</strong> 20% with high-water mark</li>
             <li><strong>Target Investors:</strong> Institutional and sophisticated investors</li>
         </ul>
     </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Comparison</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+        }
+        .table-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        h2 {
+            text-align: center;
+            padding: 24px 0 8px;
+            color: #1a1a2e;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: #0a2540;
+            color: white;
+            padding: 16px 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+        }
+        td {
+            padding: 16px 12px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 15px;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .year-col {
+            font-weight: 600;
+            color: #0a2540;
+        }
+        .fee-col {
+            background-color: #e8f5e9;
+            font-weight: 600;
+            color: #2e7d32;
+        }
+        .header-tech {
+            background-color: #1565c0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <h2>Cumulative Returns Comparison</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>YEAR</th>
+                    <th>B&amp;H</th>
+                    <th>TECH MEGATREND TACTICAL ETI</th>
+                    <th>After 20%/1% Fee</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="year-col">1</td>
+                    <td>1.4423</td>
+                    <td>1.6254</td>
+                    <td class="fee-col">1.49</td>
+                </tr>
+                <tr>
+                    <td class="year-col">2</td>
+                    <td>2.080229</td>
+                    <td>2.64192516</td>
+                    <td class="fee-col">2.23</td>
+                </tr>
+                <tr>
+                    <td class="year-col">3</td>
+                    <td>3.000315</td>
+                    <td>4.294185155</td>
+                    <td class="fee-col">3.34</td>
+                </tr>
+                <tr>
+                    <td class="year-col">4</td>
+                    <td>4.327354</td>
+                    <td>6.979768551</td>
+                    <td class="fee-col">4.98</td>
+                </tr>
+                <tr>
+                    <td class="year-col">5</td>
+                    <td>6.241343</td>
+                    <td>11.3449158</td>
+                    <td class="fee-col">7.44</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
 
     <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #ddd; font-size: 14px; color: #666;">
         <p><strong>Disclaimer:</strong> This document is for informational purposes only and does not constitute an offer to sell or solicitation to purchase any security. Past performance is not indicative of future results. All performance figures are subject to compliance verification. The simulated backtest results are self-reported and not independently audited.</p>
